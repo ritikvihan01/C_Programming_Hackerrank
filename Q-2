@@ -1,0 +1,25 @@
+//You have to print the character ch, in the first line. Then print stribg s in next line. In the last line print the sentence, sen.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    char ch;
+    char s[24];
+    char t[100]; 
+    scanf("%c",&ch);
+    scanf("%s",s);
+    // getchar();
+    scanf("%[^\n]%*c",t);
+    
+    printf("%c",ch);
+    printf("\n");
+    printf("%s",s);
+    printf("\n");
+    printf("%s",t); 
+    return 0;
+}
